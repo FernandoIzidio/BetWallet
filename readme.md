@@ -1,20 +1,24 @@
 # BetWallet
 
-# Tecnologias Utilizadas
-
-## Linguagens de Programação
-- Python
-
-## Frameworks e Bibliotecas
-- Flask
-- SQLAlchemy
-
-## Banco de Dados
-- SQLite
 
 
 ## Descrição
 BetWallet é uma plataforma de carteira de investimento de alto risco projetada para permitir que os usuários invistam em mercados específicos oferecidos pela Betfair. A plataforma oferece uma variedade de recursos para ajudar os usuários a tomar decisões informadas, gerenciar seu risco e acompanhar seu desempenho de investimento.
+
+## Tecnologias Utilizadas
+
+### Linguagens de Programação
+- Python
+
+### Frameworks e Bibliotecas
+- Flask
+- SQLAlchemy
+
+### Banco de Dados
+- SQLite
+
+
+
 
 ## Recursos Principais
 
