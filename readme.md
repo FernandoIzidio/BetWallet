@@ -28,20 +28,22 @@ A aplicação segue o padrão de arquitetura Model-View-Controller para separar 
 
 
 ## Recursos Principais
-
+- **Seleção de Mercados Personalizada**: Os usuários podem escolher os mercados em que desejam investir e quantos mercados desejam apostar.
 - **Filtros Avançados de Mercado:** Os usuários podem filtrar os mercados com base em critérios específicos, como esportes, tipos de apostas e níveis de risco.
 - **Análise de Desempenho de Mercado:** Fornece gráficos e estatísticas detalhadas sobre o desempenho histórico de cada mercado, incluindo ROI médio, volatilidade e tendências recentes.
-- **Recomendações Personalizadas:** Oferece recomendações personalizadas de mercados com base no perfil de risco e histórico de apostas do usuário.
-- **Alertas de Preço:** Os usuários podem definir alertas de preço para mercados específicos e serem notificados quando as probabilidades atingirem um determinado nível.
+- **Recomendações Personalizadas:** Oferece recomendações personalizadas de mercados com base no perfil de risco e histórico de apostas do usuário, e faz sugestões dos mercados populares mais rentaveis.
+- **Alertas de Preço:** Os usuários podem definir alertas de preço para mercados específicos e serem notificados quando as ODD's atingirem um determinado nível.
 - **Ferramentas de Gerenciamento de Risco:** Integra ferramentas para ajudar os usuários a gerenciar seu risco, como stop-loss e limites de apostas.
-- **Feed de Notícias e Análises:** Fornece um feed de notícias e análises relevantes sobre os mercados selecionados pelos usuários.
-- **Comunidade e Fóruns:** Oferece uma comunidade onde os usuários podem discutir estratégias, compartilhar insights e trocar experiências.
+- **Histórico de Desempenho Comparativo:** Forneçe aos usuários a capacidade de comparar seu desempenho de investimento com outros usuários ou benchmarks do mercado.
+- **Integração com Plataformas de Trading:** Permite que os usuários executem suas ordens de investimento diretamente da plataforma, integrando-se a corretoras ou plataformas de trading.
 - **Integração com APIs Externas:** Integra APIs de fontes externas para fornecer dados adicionais, como previsões de especialistas e análises estatísticas avançadas.
 - **Suporte Multilíngue:** Oferece suporte multilíngue para atender a uma audiência global.
 - **Relatórios Detalhados:** Permite que os usuários gerem relatórios detalhados sobre seu desempenho de investimento.
 - **Integração com Pagamentos e Saques:** Facilita depósitos e saques com uma variedade de métodos de pagamento e transações seguras.
 - **Segurança Avançada:** Implementa medidas de segurança robustas, como autenticação de dois fatores e criptografia de dados.
-- **Suporte ao Cliente em Tempo Real:** Oferece suporte ao cliente em tempo real por meio de chat ao vivo ou sistema de tickets.
+- **Suporte ao Cliente:** Oferece suporte ao cliente por meio de sistema de tickets.
+
+
 
 ## Instalação
 
