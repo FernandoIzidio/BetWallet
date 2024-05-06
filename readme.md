@@ -7,6 +7,13 @@ BetWallet é uma plataforma de carteira de investimento de alto risco projetada 
 
 ## Tecnologias Utilizadas
 
+## Sistema de Rotas
+O projeto utiliza um sistema de rotas para direcionar as solicitações HTTP para os controladores apropriados.
+
+## Arquitetura MVC
+A aplicação segue o padrão de arquitetura Model-View-Controller para separar a lógica de negócios, a apresentação e a manipulação de dados.
+
+
 ### Linguagens de Programação
 - Python
 
