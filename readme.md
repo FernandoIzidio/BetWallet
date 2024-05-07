@@ -20,6 +20,9 @@ A aplicação segue o padrão de arquitetura Model-View-Controller para separar 
 ### Frameworks e Bibliotecas
 - Flask
 - SQLAlchemy
+- Selenium
+- BS4
+  
 
 ### Banco de Dados
 - SQLite
@@ -28,7 +31,9 @@ A aplicação segue o padrão de arquitetura Model-View-Controller para separar 
 
 
 ## Recursos Principais
-- **Seleção de Mercados Personalizada**: Os usuários podem escolher os mercados em que desejam investir e quantos mercados desejam apostar.
+- **Personalização de Metódos com Configs padrões/personalizadas**: Os usuários podem personalizar Metódos com configs padrões, cada config com uma ROI especifica para cada Metódo, ou criar suas próprias configs para determinados metódos existentes.
+- **Seleção de Metódos Personalizadas**: Os usuários podem escolher os metódos em que desejam investir e quantos mercados desejam apostar.
+- **Carteiras padrões/personalizadas**: A aplicação permite aos usuários usar carteiras padrões em suas bancas, cada carteira com um ROI em especifico, e a aplicação também permite a construção de carteiras personalizadas, que podem ser construidas a partir de metódos existentes.
 - **Filtros Avançados de Mercado:** Os usuários podem filtrar os mercados com base em critérios específicos, como esportes, tipos de apostas e níveis de risco.
 - **Análise de Desempenho de Mercado:** Fornece gráficos e estatísticas detalhadas sobre o desempenho histórico de cada mercado, incluindo ROI médio, volatilidade e tendências recentes.
 - **Recomendações Personalizadas:** Oferece recomendações personalizadas de mercados com base no perfil de risco e histórico de apostas do usuário, e faz sugestões dos mercados populares mais rentaveis.
