@@ -3,7 +3,7 @@
 
 
 ## Descrição
-BetWallet é uma plataforma de carteira de investimento de alto risco projetada para permitir que os usuários invistam em mercados específicos oferecidos pela Betfair. A plataforma oferece uma variedade de recursos para ajudar os usuários a tomar decisões informadas, gerenciar seu risco e acompanhar seu desempenho de investimento.
+BetWallet é uma plataforma de carteira de investimento de alto risco projetada para permitir que os usuários invistam em mercados específicos oferecidos pela Betfair. A plataforma oferece uma variedade de recursos para ajudar os usuários a tomar decisões informadas, gerenciar seu risco e acompanhar seu desempenho de investimento, tudo de isso forma automatizada.
 
 ## Tecnologias Utilizadas
 
@@ -44,7 +44,6 @@ A aplicação segue o padrão de arquitetura Model-View-Controller para separar 
 - **Integração com APIs Externas:** Integra APIs de fontes externas para fornecer dados adicionais, como previsões de especialistas e análises estatísticas avançadas.
 - **Suporte Multilíngue:** Oferece suporte multilíngue para atender a uma audiência global.
 - **Relatórios Detalhados:** Permite que os usuários gerem relatórios detalhados sobre seu desempenho de investimento.
-- **Integração com Pagamentos e Saques:** Facilita depósitos e saques com uma variedade de métodos de pagamento e transações seguras.
 - **Segurança Avançada:** Implementa medidas de segurança robustas, como autenticação de dois fatores e criptografia de dados.
 - **Suporte ao Cliente:** Oferece suporte ao cliente por meio de sistema de tickets.
 
