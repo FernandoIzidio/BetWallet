@@ -16,8 +16,6 @@ class Wallet(db.Model):
 
     current_balance = db.Column(db.Float, nullable=False)
 
-    transaction_history = db.relationship("Transaction", backref="wallet", lazy=True)
-
     date_created = db.Column(
         db.DateTime,
         nullable=False,
@@ -34,4 +32,27 @@ class Wallet(db.Model):
     active_status = db.Column(db.Boolean, nullable=False, default=True)
     notifications_settings = db.Column(db.JSON, nullable=True)
 
-    id_balance = db.Column(db.Integer, db.ForeignKey("balance.id"))
+    def __init__(
+        self,
+        name: str,
+        stake_percent: float,
+        stop_gain: float,
+        stop_loss: float,
+        initial_balance: float,
+        current_balance: float,
+        active_status: bool,
+        notifications_settings: str,
+    ):
+        self.name = name
+        self.stake_percent = stake_percent
+        self.stop_gain = stop_gain
+        self.stop_loss = stop_loss
+        self.initial_balance = initial_balance
+        self.current_balance = current_balance
+        self.active_status = active_status
+        self.notifications_settings = notifications_settings
+
+    def __repr__(self) -> str:
+        return f"Wallet({self.name}, {self.stake_percent}, {self.stop_gain}, \
+            {self.stop_loss}, {self.initial_balance}, {self.current_balance}, \
+            {self.active_status}, {self.notifications_settings})"
