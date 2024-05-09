@@ -1,8 +1,8 @@
 from flask import Blueprint
 
-main_bp = Blueprint("main", __name__)
+app = Blueprint("routes", __name__)
 
 
-@main_bp.route("/")
+@app.route("/")
 def index():
     return "Olá, mundo!"
