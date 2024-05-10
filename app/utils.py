@@ -23,7 +23,15 @@ def request_account_api(
     return response.json()
 
 
-def request_betting_api(resource: str, method: Literal["GET", "POST", "PUT", "DELETE"]):
+def request_betting_api(
+    resource: str,
+    method: Literal[
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE",
+    ],
+):
     url = BETTING_POINT + resource
 
     response = getattr(requests, method.lower())(
