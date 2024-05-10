@@ -3,7 +3,15 @@ from config import ACCOUNT_POINT, BETTING_POINT, json_req, header
 import requests
 
 
-def request_account_api(resource: str, method: Literal["GET", "POST", "PUT", "DELETE"]):
+def request_account_api(
+    resource: str,
+    method: Literal[
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE",
+    ],
+):
     url = ACCOUNT_POINT + resource
 
     response = getattr(requests, method.lower())(
