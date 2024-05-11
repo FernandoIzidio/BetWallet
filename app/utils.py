@@ -1,6 +1,7 @@
-from typing import Literal
-from config import ACCOUNT_POINT, BETTING_POINT, json_req, header
 import requests
+import json
+from typing import Literal
+from config import header, BETTING_POINT, ACCOUNT_POINT
 
 
 def request_account_api(
@@ -11,12 +12,13 @@ def request_account_api(
         "PUT",
         "DELETE",
     ],
+    json_req: dict,
 ):
     url = ACCOUNT_POINT + resource
 
     response = getattr(requests, method.lower())(
         url,
-        data=json_req,
+        data=json.dumps(json_req),
         headers=header,
     )
 
@@ -31,12 +33,13 @@ def request_betting_api(
         "PUT",
         "DELETE",
     ],
+    json_req: dict,
 ):
     url = BETTING_POINT + resource
 
     response = getattr(requests, method.lower())(
         url,
-        data=json_req,
+        data=json.dumps(json_req),
         headers=header,
     )
 
