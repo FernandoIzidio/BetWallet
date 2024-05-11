@@ -11,3 +11,7 @@ class Account_API:
     @classmethod
     def get_account_statement(cls):
         return request_account_api("getAccountStatement/", "POST", json_req)
+
+    @classmethod
+    def get_developer_app_keys(cls):
+        return request_account_api("getDeveloperAppKeys/", "POST", json_req)
